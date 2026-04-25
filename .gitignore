@@ -1,0 +1,26 @@
+# 원본 데이터 (용량 크고 민감 데이터 포함)
+dataset/
+
+# Claude Code 개인 설정
+.claude/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

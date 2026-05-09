@@ -25,4 +25,19 @@
 ## Notion DB 라우팅
 
 - `category="paper"` → AI 논문 DB (NOTION_PAPER_DB_ID)
-- `category="stock"` → 주식 기사 DB (NOTION_STOCK_DB_ID)
+- `category="stock_research"` → 주식 리서치 DB (뉴스 / 산업분석 / 증권사리포트)
+- `category="stock_study"` → 주식 공부노트 DB (용어 / 이론 / 지표 / 전략 / 산업지식)
+
+## 주식 리서치 저장 규칙
+
+- `sub_category`: 뉴스 | 산업분석 | 증권사리포트
+- `source`: 출처 (예: "한국경제", "삼성증권", "키움증권")
+- `tags`: 관련 섹터/종목 (예: ["반도체", "AI", "국내"])
+- `difficulty`: stock_study 전용 — 기초 | 중급 | 고급
+
+## 주식 콘텐츠 포맷
+
+- 논문과 동일하게 `##`, `###` 헤더 금지. `━━━ 섹션명 ━━━` 형식 사용.
+- 뉴스/리포트: 핵심 요약 → 시장 영향 → 투자 시사점 순으로 서술.
+- 공부노트: 개념 정의 → 실제 사례 → 투자 적용법 순으로 서술.
+- 단순 bullet 나열 금지, 문단 형식으로 충분히 서술.

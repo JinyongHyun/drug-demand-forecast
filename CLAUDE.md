@@ -24,9 +24,11 @@
 
 ## Notion DB 라우팅
 
-- `category="paper"` → AI 논문 DB (NOTION_PAPER_DB_ID)
-- `category="stock_research"` → 주식 리서치 DB (뉴스 / 산업분석 / 증권사리포트)
-- `category="stock_study"` → 주식 공부노트 DB (용어 / 이론 / 지표 / 전략 / 산업지식)
+- `category="paper"` → AI 논문 DB (`34617b872be68060a474e18a73510f38`)
+- `category="stock_research"` → 주식 리서치 DB (`39bf50a1aca04ad2a10079e958cf96d4`) — 뉴스 / 산업분석 / 증권사리포트
+- `category="stock_study"` → 주식 공부노트 DB (`d1afcb876857487eb978c1a8e0952d05`) — 용어 / 이론 / 지표 / 전략 / 산업지식
+
+모두 "Finance & 투자" 페이지(`33117b872be68187a1b4ddc51261856e`) 인라인 DB.
 
 ## 주식 리서치 저장 규칙
 

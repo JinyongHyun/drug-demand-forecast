@@ -12,7 +12,7 @@
 ## 데이터 설명
 
 ### 경로
-`D:\python\dataset\`
+`D:\python\drug_demand_forecast\dataset\`
 
 ### 파일 목록
 
